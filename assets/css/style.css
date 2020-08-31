@@ -1,0 +1,272 @@
+*{
+      margin: 0px;
+      padding: 0px;
+}
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+
+
+}
+header{
+    background-color: aliceblue;
+    float: left;
+    width: 100%;
+}
+.container{
+          width: 1146px;
+          margin: 0 auto;
+          height: 75px;
+         
+}
+.logo{
+        width: 25%;
+        height: 74px;
+        float: left;
+        
+    
+
+}
+.logo img{
+    display: block; width: 150px;
+    height: 86px;
+}
+.menu{
+    width: 45%;
+        height: 75px;
+        
+    float: left;
+
+}
+.menu ul {
+    float: left;
+    list-style:none;}
+   
+    
+.menu ul li{
+    float: left;
+    list-style:none;
+    margin: 13px 20px;
+    
+    
+}
+.menu ul li a{
+    padding:3px 3px;
+    text-decoration: none;
+    border: 1px solid red;
+    background-color: sienna;
+    color:whitesmoke ;border-radius: 1px;
+}
+.menu ul li a:hover{ color: blue; background-color: cornsilk;
+
+}
+.social{
+    width:30% ;
+    float: left;
+}
+.social ul{  
+    list-style:none;
+    float: left;
+
+}
+.social ul li{ display: inline-block;
+    float: left;
+    margin: 25px 15px;
+    
+}
+.social ul li a{text-decoration: none;
+    
+}
+.banner{
+    width: 100%;
+    
+    height: 500px;
+    background-image: url(../../img/money.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    display: block;
+}
+   .banner article{
+    width: 19.5%;
+    margin-left: 24%;
+    color: white;
+    background-color: rgb(191 191 155 / 25%);
+}
+.banner article h1{ color:white}
+
+.banner article button{
+       background-color: blue;
+       color:whitesmoke ;
+       font-family: fantasy;
+       padding: 5px;
+    
+  
+   }
+   .feature{width: 100%;
+    float: left;
+    padding: 25px 0px;
+
+   }
+   .feature-one{width: 25%;
+    text-align: center;
+    float: left;
+
+   }
+   .feature-one h2{color: blue;
+       
+  }
+  .feature-two h2{color: blue;
+  }
+
+  .feature-three h2{color: blue;
+  }
+  .feature-four h2{color: blue;
+  }
+
+  .feature-one p{
+       
+  }
+
+   .feature-one btn { background-color: blue;
+    color: cornsilk;
+       
+   }
+    .feature-two{width: 25%;
+    float: left;
+    text-align: center;
+    }
+    .feature-two btn { background-color: blue;
+        color: cornsilk;
+           
+       }
+
+   
+    .feature-three{width: 25%;
+        float: left;
+        text-align: center;
+    }
+        .feature-three btn { background-color: blue;
+            color: cornsilk;
+               
+           }
+   
+        
+   .feature-four{
+       width: 25%;
+       float: left;
+       text-align: center;
+   }
+   .feature-four btn { background-color: blue;
+    color: cornsilk;
+       
+   }
+   .invest{
+       margin-top: 0%;
+       
+   }
+   .invest h2{ background-color:blue; color:whitesmoke;
+
+   }
+   .roadmap-one {
+        width: 40%;
+        float: left;
+        text-align: center;
+        background-color: antiquewhite;
+        margin: 30px 40px;
+    }
+    .roadmap-one ul{ 
+        list-style: none;
+
+    }
+    .roadmap-one ul li{
+
+    }
+    .roadmap-two{
+        width: 40%;
+        float: left;
+        text-align: center;
+        background-color: antiquewhite;
+        margin: 30px 40px;
+    }
+    .roadmap-two h2{
+
+    }
+    .roadmap-two ul{ 
+        list-style: none;
+
+    }
+    .roadmap-two li{
+
+    }
+   .feature h1{
+       color: rgb(11, 44, 4);
+       text-align: center;
+   }
+   .more{
+      margin:25px 30px;
+      float: left;
+      width:100%;
+   }
+  .more-one{
+      width:40%;
+      float: left;
+  }
+  .more-two{
+    width:40%;
+    float: left;
+    padding-left: 20%;
+}
+  .more-one h2{ 
+      color: white;
+  }
+  .more-two h2{ 
+    color:white
+}
+.more button{
+    background-color: blue;
+    color: cornsilk;
+}
+.state{
+    width: 100%;
+    height: 120px;
+    background-color: cornsilk;
+    text-align: center;
+    text-emphasis-position: center;
+    float: left;
+}
+.rating{
+    width: 100%;
+    float: left;
+    text-align: center;
+    height: fit-content;
+    height: 100px;
+}
+
+
+}
+.happy{
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: darkkhaki;
+    height: 100px;
+    color: black;
+}
+.happy h2{
+    text-align: center;
+}
+ footer{
+    width: 1140px;
+    float: left;
+    height: 80px;
+   text-align: center;
+    background-color: cornflowerblue;
+    overflow: hidden;
+    padding-left:378px;
+    
+}
+
